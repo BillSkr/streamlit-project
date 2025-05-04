@@ -6,7 +6,7 @@ This repository contains a Streamlit application for interactive single-cell RNA
 
 * **Preprocessing**: Filter cells and genes, remove ERCC/MT genes, normalize, log-transform, identify highly variable genes (HVGs), scale data, compute PCA, construct neighbor graph, and compute UMAP embeddings.
 * **Data Exploration** (Tab 1)
-
+ 
   * UMAP plots colored by metadata.
   * PCA plots colored by metadata.
   * HVG visualization.
