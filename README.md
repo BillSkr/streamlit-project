@@ -51,14 +51,14 @@ This repository contains a Streamlit application for interactive single-cell RNA
 2. Run the Streamlit app:
 
    ```bash
-   streamlit run app2.py
+   streamlit run app.py
    ```
 3. Open the URL shown in the terminal (usually `http://localhost:8501`) in your web browser.
 
 ## File Structure
 
 ```
-├── app2.py              # Main Streamlit application
+├── app.py              # Main Streamlit application
 ├── requirements.txt     # Python dependencies
 ├── pancreas_data.h5ad   # Example AnnData file (not included)
 └── README.md            # This documentation
