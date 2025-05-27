@@ -65,12 +65,14 @@ This repository contains a Streamlit application for interactive single-cell RNA
 ## File Structure
 
 ```
-├── app.py              # Main Streamlit Application
-├── requirements.txt    # Python Dependencies
-├── pancreas_data.h5ad  # Data File
-└── README.md           # Documentation
-└── b.png               # Image
-
+.
+├── app.py             # Main Streamlit application
+├── requirements.txt   # Python dependencies
+├── pancreas_data.h5ad # Example data file
+├── assets
+│   └── b.png          # Image assets
+├── LICENSE            # MIT License
+└── README.md          # Project documentation
 ```
 
 ## Dependencies
