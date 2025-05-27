@@ -91,7 +91,7 @@ This repository contains a Streamlit application for interactive single-cell RNA
 Install all via:
 
 ```bash
-pip install streamlit pandas scanpy scanpy_external harmonypy hdf5plugin jupyter igraph leidenalg adjustText matplotlib seaborn numpy
+pip install -r requirements.txt
 ```
 
 ## Customization
