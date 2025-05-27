@@ -6,7 +6,7 @@ This repository contains a Streamlit application for interactive single-cell RNA
 
 * **Preprocessing**: Filter cells and genes, remove ERCC/MT genes, normalize, log-transform, identify highly variable genes (HVGs), scale data, compute PCA, construct neighbor graph, and compute UMAP embeddings.
 * **Data Exploration** (Tab 1)
- 
+
   * UMAP plots colored by metadata.
   * PCA plots colored by metadata.
   * HVG visualization.
@@ -44,14 +44,14 @@ This repository contains a Streamlit application for interactive single-cell RNA
    ```bash
    pip install -r requirements.txt
    ```
-4. Run the app with docker
+
+4. Run the app with Docker:
 
    ```bash
    docker build -t streamlit_app .
-
    docker run -p 8501:8501 streamlit_app
+   ```
 
-   
 ## Usage
 
 1. Place your `.h5ad` file (e.g., `pancreas_data.h5ad`) in the root directory.
@@ -66,26 +66,32 @@ This repository contains a Streamlit application for interactive single-cell RNA
 
 ```
 ├── app.py              # Main Streamlit application
-├── requirements.txt     # Python dependencies
-├── pancreas_data.h5ad   # Example AnnData file (not included)
-└── README.md            # This documentation
+├── requirements.txt    # Python dependencies
+├── pancreas_data.h5ad  # Example AnnData file (not included)
+└── README.md           # This documentation
 ```
 
 ## Dependencies
 
 * Python >= 3.8
-* [Streamlit](https://streamlit.io/)
-* [Scanpy](https://scanpy.readthedocs.io/)
-* [Harmony-py](https://github.com/slowkow/harmony-py)
-* [Pandas](https://pandas.pydata.org/)
-* [Matplotlib](https://matplotlib.org/)
-* [Seaborn](https://seaborn.pydata.org/)
-* [NumPy](https://numpy.org/)
+* Streamlit
+* Pandas
+* Scanpy
+* scanpy\_external
+* harmonypy
+* hdf5plugin
+* Jupyter
+* igraph
+* leidenalg
+* adjustText
+* Matplotlib
+* Seaborn
+* NumPy
 
 Install all via:
 
 ```bash
-pip install streamlit scanpy scanpy_external harmonypy pandas matplotlib seaborn numpy
+pip install streamlit pandas scanpy scanpy_external harmonypy hdf5plugin jupyter igraph leidenalg adjustText matplotlib seaborn numpy
 ```
 
 ## Customization
