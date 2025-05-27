@@ -33,7 +33,7 @@ def add_background(image_file):
     """, unsafe_allow_html=True)
 
 #Κλήση της συνάρτησης
-add_background("b.png")
+add_background("image.png")
 
 
 
