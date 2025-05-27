@@ -44,7 +44,14 @@ This repository contains a Streamlit application for interactive single-cell RNA
    ```bash
    pip install -r requirements.txt
    ```
+4. Run the app with docker
 
+   ```bash
+   docker build -t streamlit_app .
+
+   docker run -p 8501:8501 streamlit_app
+
+   
 ## Usage
 
 1. Place your `.h5ad` file (e.g., `pancreas_data.h5ad`) in the root directory.
